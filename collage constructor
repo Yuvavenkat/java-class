@@ -1,0 +1,22 @@
+public class college {
+    int clgregno;
+    String clgName;
+    String clgdepartment;
+
+    public college(int regno,String Name,String department){
+        clgregno=regno;
+        clgName=Name;
+        clgdepartment=department;
+        System.out.println("This is inside the constructor");
+
+    }
+    
+    public static void main(String[] args) {
+        college c1 = new college(711, "sachin", "aids");
+        System.out.println(c1.clgregno);
+        System.out.println(c1.clgName);
+        System.out.println(c1.clgdepartment);
+
+          
+    }
+}
