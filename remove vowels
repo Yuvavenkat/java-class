@@ -4,7 +4,7 @@ public class RemoveVowels {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        System.out.print("Enter string" ");
+        System.out.print("Enter string" );
         String inputString = scanner.nextLine();
 
         StringBuffer stringBuffer = new StringBuffer();
