@@ -1,0 +1,25 @@
+import java.util.Scanner;
+
+public class removevowels {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.print("Enter string" );
+        String is = scanner.nextLine();
+        int x = is.length();
+        System.out.println(x);
+        if ((x%2)==0){
+            int v= x/2;
+        }
+        else{
+            int v=(x/2)+1;
+        }
+        if ((is[0]=="a"||"A") && (is[x-1]=="z"||"Z") &&(is[v]=="M"||"m")){
+            System.out.println("yes");
+            
+        }
+        else{
+            System.out.println("no");
+            
+        }
+    }}
